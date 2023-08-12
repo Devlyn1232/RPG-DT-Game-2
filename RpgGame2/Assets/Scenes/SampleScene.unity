@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18109551, g: 0.22245558, b: 0.28286085, a: 1}
+  m_IndirectSpecularColor: {r: 0.18109521, g: 0.22245534, b: 0.28286025, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -212,7 +212,6 @@ Transform:
   m_LocalRotation: {x: 0.12349775, y: -0.19034944, z: 0.17536925, w: 0.9579985}
   m_LocalPosition: {x: 0, y: 8.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -269,7 +268,6 @@ Terrain:
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
-  m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
   m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
@@ -290,7 +288,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -500, y: -1, z: -500}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -304,7 +301,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -361,7 +358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_LocalPosition.x
