@@ -17,4 +17,15 @@ public class MeleDamage : MonoBehaviour
             }
         }
     }
+    private void OnTriggerLeave(Collider other)
+    {
+    if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        {
+            EnemyHealth enemyHealth = other.gameObject.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+        }
+    }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI; // Make sure to include the NavMeshAgent namespace
 
 public class EnemyMovementGround : MonoBehaviour
 {
@@ -15,122 +16,99 @@ public class EnemyMovementGround : MonoBehaviour
     public float stoppingDistance = 1f; 
     public float avoidDistance = 200f;
     public float avoidSpeed = 20f;
-    private UnityEngine.AI.NavMeshAgent agent;
-    
+    private NavMeshAgent agent; // Use NavMeshAgent directly
     private RaycastHit hitInfo;
     private RaycastHit hitInfoUp;
     private RaycastHit hitInfoDown;
 
     void Start()
     {
-
-    }
-
-    
-    void Update()
-    {
-                agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        // Other initialization code here if needed
-        if (frendly)
-        {
-            EnemieAttributes[] enemyAttributes = GameObject.FindObjectsOfType<EnemieAttributes>();
-            EnemieAttributes nearestEnemieAttributes = null;
-            float enemyDist = Mathf.Infinity;
-
-
-            foreach (EnemieAttributes enemyAttr in enemyAttributes)
-            {
-                float d = Vector3.Distance(this.transform.position, enemyAttr.transform.position);
-                if (nearestEnemieAttributes == null || d < enemyDist)
-                {
-                    nearestEnemieAttributes = enemyAttr;
-                    enemyDist = d;
-                }
-            }
-            targetEnemy = nearestEnemieAttributes;
-        }
-        else
+        agent = GetComponent<NavMeshAgent>(); // Initialize the NavMeshAgent
+        
+        // Initialize targetPlayer and targetEnemy
+        if (!frendly) // Non-friendly case
         {
             PlayerLifeAttributes[] playerLifeAttributes = GameObject.FindObjectsOfType<PlayerLifeAttributes>();
-            PlayerLifeAttributes nearestPlayerLifeAttributes = null;
-            float playerDist = Mathf.Infinity;
+            float closestDistance = Mathf.Infinity;
 
             foreach (PlayerLifeAttributes playerAttr in playerLifeAttributes)
             {
-                float d = Vector3.Distance(this.transform.position, playerAttr.transform.position);
-                if (nearestPlayerLifeAttributes == null || d < playerDist)
+                float distance = Vector3.Distance(transform.position, playerAttr.transform.position);
+                if (distance < closestDistance)
                 {
-                    nearestPlayerLifeAttributes = playerAttr;
-                    playerDist = d;
+                    closestDistance = distance;
+                    targetPlayer = playerAttr;
                 }
             }
-            targetPlayer = nearestPlayerLifeAttributes;
         }
-        if(!Physics.Linecast(transform.position, GetTargetPosition(), obstruction))
+        else // Friendly case
         {
-            
-            
-            Vector3 playersDirection = GetTargetPosition() - this.transform.position;
+            EnemieAttributes[] enemyAttributes = GameObject.FindObjectsOfType<EnemieAttributes>();
+            float closestDistance = Mathf.Infinity;
+
+            foreach (EnemieAttributes enemyAttr in enemyAttributes)
+            {
+                float distance = Vector3.Distance(transform.position, enemyAttr.transform.position);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    targetEnemy = enemyAttr;
+                }
+            }
+        }
+    }
+
+    void Update()
+    {
+        if (!Physics.Linecast(transform.position, GetTargetPosition(), obstruction))
+        {
+            Vector3 playersDirection = GetTargetPosition() - transform.position;
             Quaternion lookRot = Quaternion.LookRotation(playersDirection);
             self.rotation = Quaternion.RotateTowards(self.rotation, lookRot, Time.deltaTime * degreesPerSecond);
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
         }
-             if (Physics.Raycast(transform.position, transform.forward, out hitInfo, avoidDistance) ||
+
+        if (Physics.Raycast(transform.position, transform.forward, out hitInfo, avoidDistance) ||
             Physics.Raycast(transform.position, transform.up, out hitInfoUp, avoidDistance) ||
             Physics.Raycast(transform.position, -transform.up, out hitInfoDown, avoidDistance))
-            {
-                // Move the agent around the obstacle
-                agent.speed = avoidSpeed;
-                agent.SetDestination(transform.position + transform.right * hitInfo.normal.x + transform.forward * avoidDistance);
-            }
-            else
-            {
-                agent.speed = Speed;
-                agent.SetDestination(GetTargetPosition());
-                
-                
-                // Move the agent towards the target
-                
-                
-            
-
-            // Stop the agent when it is close to the target
-            
-            if (Vector3.Distance(transform.position, GetTargetPosition()) <= stoppingDistance)
         {
-            agent.isStopped = true;
+            agent.speed = avoidSpeed;
+            agent.SetDestination(transform.position + transform.right * hitInfo.normal.x + transform.forward * avoidDistance);
         }
         else
         {
-            agent.isStopped = false;
-        }
-        
+            agent.speed = Speed;
+            agent.SetDestination(GetTargetPosition());
 
+            if (Vector3.Distance(transform.position, GetTargetPosition()) <= stoppingDistance)
+            {
+                agent.isStopped = true;
+            }
+            else
+            {
+                agent.isStopped = false;
+            }
+        }
     }
+
     Vector3 GetTargetPosition()
     {
         if (frendly)
         {
-            return targetEnemy.transform.position;
+            if (targetEnemy != null)
+            {
+                return targetEnemy.transform.position;
+            }
         }
         else
         {
-            return targetPlayer.transform.position;
+            if (targetPlayer != null)
+            {
+                return targetPlayer.transform.position;
+            }
         }
-    }
 
-    /*
-    GameObject GetTarget()
-    {
-        if (frendly)
-        {
-            return targetEnemy.gameObject;
-        }
-        else
-        {
-            return targetPlayer.gameObject;
-        }
+        // Return a default position if target is null
+        return Vector3.zero; // You can change this to an appropriate default position
     }
-    */
-}
 }
