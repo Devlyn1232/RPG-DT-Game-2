@@ -23,13 +23,20 @@ public class EnemyMovementGround : MonoBehaviour
 
     void Start()
     {
-        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
+    }
+
+    
+    void Update()
+    {
+                agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         // Other initialization code here if needed
         if (frendly)
         {
             EnemieAttributes[] enemyAttributes = GameObject.FindObjectsOfType<EnemieAttributes>();
             EnemieAttributes nearestEnemieAttributes = null;
             float enemyDist = Mathf.Infinity;
+
 
             foreach (EnemieAttributes enemyAttr in enemyAttributes)
             {
@@ -59,11 +66,6 @@ public class EnemyMovementGround : MonoBehaviour
             }
             targetPlayer = nearestPlayerLifeAttributes;
         }
-    }
-
-    void FixedUpdate()
-    {
-        
         if(!Physics.Linecast(transform.position, GetTargetPosition(), obstruction))
         {
             

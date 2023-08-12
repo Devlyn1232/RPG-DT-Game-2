@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CyberPunk.Enemy
-{
     public class EnemyHealth : MonoBehaviour
     {
         public float maxHealth = 100f;
@@ -50,4 +48,3 @@ namespace CyberPunk.Enemy
             }
         }
     }
-}
