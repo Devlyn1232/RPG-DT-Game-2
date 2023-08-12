@@ -8,5 +8,19 @@ public class WeaponObjectData : Object.ObjectData
     public override void AssignItemToPlayer(){
 
     }
-    public float damage, range;
+
+    public enum weaponType
+    {
+        Great,
+        Short,
+        Knife,
+        Pole,
+        Blunt,
+        Unique
+    };
+    
+    [Header("weapon settings")]
+    public weaponType _weaponType;
+
+    public float damage, range, penetration;
 }

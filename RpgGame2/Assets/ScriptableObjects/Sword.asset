@@ -18,5 +18,7 @@ MonoBehaviour:
   type: 1
   stackable: 0
   prefab: {fileID: 0}
+  _weaponType: 1
   damage: 10
   range: 2
+  penetration: 1
