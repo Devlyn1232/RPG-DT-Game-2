@@ -8,11 +8,16 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
+<<<<<<< HEAD
   - thisGround
   - 
+=======
+  - Enemy
+  - Obstruction
+>>>>>>> origin/main
   - 
   - 
   - 

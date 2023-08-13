@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\nhnvh\OneDrive\Documents\RPG-DT-Game-2\RpgGame2
+=======
+C:\Users\delvy\OneDrive\Desktop\RPGgame2\RpgGame2
+>>>>>>> origin/main
