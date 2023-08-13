@@ -331,7 +331,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Code!!/CameraManager.cs"
 "Assets/Code!!/DestroyObject.cs"
 "Assets/Code!!/EnemyScripts/EnemieAttributes.cs"
 "Assets/Code!!/EnemyScripts/EnemyGAttack.cs"
@@ -347,6 +346,9 @@
 "Assets/Code!!/InventoryScripts/ObjectTypes/ResourceObjectData.cs"
 "Assets/Code!!/InventoryScripts/ObjectTypes/WeaponObjectData.cs"
 "Assets/Code!!/MeleDamage.cs"
+"Assets/Code!!/Player/Camera/CameraManager.cs"
+"Assets/Code!!/Player/Movement/PlaMove.cs"
+"Assets/Code!!/Player/Movement/StaminaSlide.cs"
 "Assets/Code!!/PlayerLifeAttributes.cs"
 "Assets/Code!!/RotateE.cs"
 -langversion:9.0
