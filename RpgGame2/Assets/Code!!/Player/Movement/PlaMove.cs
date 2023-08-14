@@ -75,7 +75,7 @@ namespace NamsGame.Movement
         void Update()
         {
             //ground check
-            grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, thisGround);
+            grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.01f, thisGround);
 
             MyInput();
             SpeedCap();

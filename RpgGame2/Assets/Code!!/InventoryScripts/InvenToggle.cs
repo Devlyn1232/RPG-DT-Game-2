@@ -12,10 +12,14 @@ public class InvenToggle : MonoBehaviour // merge this with an input handler at 
             if(isUiActive) {
                 inventoryFrame.SetActive(false);
                 isUiActive = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
             }
             else {
                 inventoryFrame.SetActive(true);
                 isUiActive = true;
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
             }
             
         }
