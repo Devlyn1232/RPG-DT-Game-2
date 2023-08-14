@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4479711, g: 0.4937954, b: 0.5530354, a: 1}
+  m_IndirectSpecularColor: {r: 0.44797188, g: 0.49379623, b: 0.5530365, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -611,6 +611,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3646925578083985471, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -621,7 +625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.99998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -658,6 +662,22 @@ PrefabInstance:
     - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_Name
       value: Enemy Assasin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993167351991346, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168018990495, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168032652319, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -843,7 +863,7 @@ GameObject:
   - component: {fileID: 1031209316}
   - component: {fileID: 1031209315}
   - component: {fileID: 1031209314}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,6 +966,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3646925578083985471, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -956,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0000095
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -990,9 +1014,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974746, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: obstruction.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974749, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_Name
       value: Frendly Assasin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974749, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993167351991346, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168018990495, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168032652319, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1007,6 +1051,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3646925578083985471, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1017,7 +1065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9999819
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1051,9 +1099,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974746, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: obstruction.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_Name
       value: Enemy Assasin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993167351991346, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168018990495, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168032652319, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1204,7 +1272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1437514350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CamHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1219,13 +1287,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437514349}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.9214761, y: 5.3078003, z: 1.576679}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2045138707}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1717644407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1461938837
 GameObject:
@@ -1272,7 +1340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1474491703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Orientation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1380,9 +1448,10 @@ GameObject:
   - component: {fileID: 1717644407}
   - component: {fileID: 1717644408}
   - component: {fileID: 1717644409}
-  m_Layer: 0
+  - component: {fileID: 1717644410}
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1403,6 +1472,7 @@ Transform:
   - {fileID: 1031209313}
   - {fileID: 1968423722}
   - {fileID: 1474491703}
+  - {fileID: 1437514350}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1717644408
@@ -1465,6 +1535,18 @@ MonoBehaviour:
   orientation: {fileID: 1474491703}
   _cam: {fileID: 2045138706}
   state: 0
+--- !u!114 &1717644410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717644406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859ede2d627404b448daf19620bbe4a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1913412386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1473,6 +1555,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3646925578083985471, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1483,7 +1569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9999924
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974745, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1517,9 +1603,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974746, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: obstruction.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974749, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_Name
       value: Frendly Assasin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974749, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993167351991346, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168018990495, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993168032652319, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1610,7 +1716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968423722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CamPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1643,7 +1749,7 @@ GameObject:
   - component: {fileID: 2045138707}
   - component: {fileID: 2045138706}
   - component: {fileID: 2045138705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1904,5 +2010,4 @@ SceneRoots:
   - {fileID: 869380416}
   - {fileID: 2146409896}
   - {fileID: 1382270696}
-  - {fileID: 1437514350}
   - {fileID: 1717644407}
