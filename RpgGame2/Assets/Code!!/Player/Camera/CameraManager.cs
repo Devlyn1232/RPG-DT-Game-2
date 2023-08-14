@@ -24,11 +24,29 @@ public class CameraManager : MonoBehaviour
     public float minimumPivotAngle = -35;
     public float maximumPivotAngle = 35;
 
+    public Vector2 cameraInput;
+    public float cameraInputX;
+    public float cameraInputY;
+    public float sensX;
+    public float sensY;
+
     private void Awake()
     {
-        //targetTransform = FindObjectOfType<PlayerManager>().transform;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         cameraTransform = Camera.main.transform;
         defaultPosition = cameraTransform.localPosition.z;
+    }
+
+    private void Update() {
+        cameraInputX = cameraInput.x;
+        cameraInputY = cameraInput.y;
+        
+        cameraInput.x = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
+        cameraInput.y = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+
+        handleAllCameraMovement();
     }
 
     public void handleAllCameraMovement()
@@ -50,8 +68,8 @@ public class CameraManager : MonoBehaviour
     {
         Vector3 rotation;
         Quaternion targetRotation;
-        //lookAngle = lookAngle + (StealthGame.Input.InputManager.instance.cameraInputX * cameraLookSpeed);
-        //pivotAngle = pivotAngle - (StealthGame.Input.InputManager.instance.cameraInputY * cameraPivotSpeed);
+        lookAngle = lookAngle + (cameraInputX * cameraLookSpeed);
+        pivotAngle = pivotAngle - (cameraInputY * cameraPivotSpeed);
         pivotAngle = Mathf.Clamp(pivotAngle, minimumPivotAngle, maximumPivotAngle);
 
         //This will make the camera rotate towards the rotation made by input
