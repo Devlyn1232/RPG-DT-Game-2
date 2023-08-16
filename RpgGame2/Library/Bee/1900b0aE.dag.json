@@ -148,18 +148,8 @@
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
       "PayloadOffset": 99,
-<<<<<<< HEAD
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
-=======
-<<<<<<< HEAD
       "PayloadLength": 56,
       "PayloadDebugContentSnippet": "C:\\Users\\nhnvh\\OneDrive\\Docume",
-=======
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -170,15 +160,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 233,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 240,
-=======
-      "PayloadOffset": 233,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 38031,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -191,21 +173,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 38350,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 38357,
       "PayloadLength": 69,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\nhnvh\\OneDr",
-=======
-      "PayloadOffset": 38350,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2"
@@ -1930,15 +1900,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 38507,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 38521,
-=======
-      "PayloadOffset": 38507,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 7355,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2139,21 +2101,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEditor.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 45967,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 45981,
       "PayloadLength": 56,
       "PayloadDebugContentSnippet": "C:\\Users\\nhnvh\\OneDrive\\Docume",
-=======
-      "PayloadOffset": 45967,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -2164,15 +2114,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp",
       "DisplayName": "Writing UnityEditor.UI.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 46101,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 46122,
-=======
-      "PayloadOffset": 46101,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 34889,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -2185,21 +2127,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2",
       "DisplayName": "Writing UnityEditor.UI.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 81076,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 81097,
       "PayloadLength": 69,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\nhnvh\\OneDr",
-=======
-      "PayloadOffset": 81076,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2"
@@ -2530,15 +2460,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEditor.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 81233,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 81261,
-=======
-      "PayloadOffset": 81233,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 7513,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2743,21 +2665,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 88854,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 88882,
       "PayloadLength": 56,
       "PayloadDebugContentSnippet": "C:\\Users\\nhnvh\\OneDrive\\Docume",
-=======
-      "PayloadOffset": 88854,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -2768,15 +2678,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 88991,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 89026,
-=======
-      "PayloadOffset": 88991,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 36119,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -2789,21 +2691,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 125199,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 125234,
       "PayloadLength": 69,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\nhnvh\\OneDr",
-=======
-      "PayloadOffset": 125199,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -3139,15 +3029,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 125359,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 125401,
-=======
-      "PayloadOffset": 125359,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 7507,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3352,21 +3234,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 132981,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 133023,
       "PayloadLength": 56,
       "PayloadDebugContentSnippet": "C:\\Users\\nhnvh\\OneDrive\\Docume",
-=======
-      "PayloadOffset": 132981,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -3377,15 +3247,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 133125,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 133174,
-=======
-      "PayloadOffset": 133125,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 36467,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -3398,21 +3260,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 169688,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 169737,
       "PayloadLength": 69,
       "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\nhnvh\\OneDr",
-=======
-      "PayloadOffset": 169688,
-      "PayloadLength": 62,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\delvy\\OneDr",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -3743,15 +3593,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 169855,
-=======
-<<<<<<< HEAD
       "PayloadOffset": 169911,
-=======
-      "PayloadOffset": 169855,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 7668,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3960,21 +3802,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-      "PayloadOffset": 177629,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
-=======
-<<<<<<< HEAD
       "PayloadOffset": 177685,
       "PayloadLength": 56,
       "PayloadDebugContentSnippet": "C:\\Users\\nhnvh\\OneDrive\\Docume",
-=======
-      "PayloadOffset": 177629,
-      "PayloadLength": 49,
-      "PayloadDebugContentSnippet": "C:\\Users\\delvy\\OneDrive\\Deskto",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -3985,20 +3815,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
       "PayloadOffset": 177827,
       "PayloadLength": 31706,
-=======
-      "PayloadOffset": 177764,
-      "PayloadLength": 31674,
-<<<<<<< HEAD
->>>>>>> origin/khgg
-=======
-=======
-      "PayloadOffset": 177764,
-      "PayloadLength": 31567,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -4010,18 +3828,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "PayloadOffset": 209620,
-=======
-      "PayloadOffset": 209525,
->>>>>>> origin/khgg
-=======
-      "PayloadOffset": 209588,
-=======
-      "PayloadOffset": 209418,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -4322,18 +4129,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "PayloadOffset": 209716,
-=======
-      "PayloadOffset": 209621,
->>>>>>> origin/khgg
-=======
-      "PayloadOffset": 209684,
-=======
-      "PayloadOffset": 209514,
->>>>>>> origin/main
->>>>>>> origin/main
       "PayloadLength": 7498,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4687,15 +4483,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-<<<<<<< HEAD
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies/UnityEngine.UI.dll\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed/UnityEngine\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
-=======
-<<<<<<< HEAD
       "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:/Users/nhnvh/OneDrive/Documents/RPG-DT-Game-2/RpgGame2/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"C:/Users/nhnvh/OneDrive/Documents/RPG-DT-Game-2/RpgGame2/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"C:/Users/nhnvh/OneDrive/Documents/RPG-DT-Game-2/RpgGame2/Library/ScriptAssemblies/UnityEngine.UI.dll\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed/UnityEngine\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"C:/Users/nhnvh/OneDrive/Documents/RPG-DT-Game-2/RpgGame2/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
-=======
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies/UnityEngine.UI.dll\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed/UnityEngine\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
->>>>>>> origin/main
->>>>>>> origin/main
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -4890,14 +4678,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-<<<<<<< HEAD
-  "PayloadsFile": "C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/Bee/1900b0aE.dag.payloads",
-=======
-<<<<<<< HEAD
   "PayloadsFile": "C:/Users/nhnvh/OneDrive/Documents/RPG-DT-Game-2/RpgGame2/Library/Bee/1900b0aE.dag.payloads",
-=======
-  "PayloadsFile": "C:/Users/delvy/OneDrive/Desktop/RPGgame2/RpgGame2/Library/Bee/1900b0aE.dag.payloads",
->>>>>>> origin/main
->>>>>>> origin/main
   "RelativePathToRoot": "../.."
 }
