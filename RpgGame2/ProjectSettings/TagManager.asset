@@ -11,8 +11,17 @@ TagManager:
   - Player
   - Water
   - UI
+<<<<<<< HEAD
   - thisGround
+<<<<<<< HEAD
   - Enemy
+=======
+  - 
+=======
+  - Enemy
+  - Obstruction
+>>>>>>> origin/main
+>>>>>>> origin/main
   - 
   - 
   - 

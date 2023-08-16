@@ -1,5 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":426.33709716796877,"y":58.2398567199707,"z":-2.252390146255493},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":293.0021057128906,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-19.286069869995118,"y":9.354050636291504,"z":18.8420352935791},"rotation":{"x":-0.055736035108566287,"y":-0.9357218742370606,"z":0.17229780554771424,"w":-0.30273234844207766},"size":0.3959256410598755,"orthographic":false}
 >>>>>>> origin/khgg
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":1.504866123199463,"y":-1.955690860748291,"z":0.9907643795013428},"rotation":{"x":0.13498248159885407,"y":0.2755160629749298,"z":-0.039107128977775577,"w":0.9509698152542114},"size":9.554779052734375,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":171.95065307617188,"y":241.7310028076172,"z":654.8546752929688},"rotation":{"x":0.009854672476649285,"y":0.9849843978881836,"z":-0.060069236904382709,"w":0.1615855097770691},"size":21.961151123046876,"orthographic":false}
+>>>>>>> origin/main
+>>>>>>> origin/main
