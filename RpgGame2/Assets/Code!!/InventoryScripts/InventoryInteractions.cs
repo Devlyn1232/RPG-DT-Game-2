@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Player.Inventory {
+namespace Game.Player.Inventory {
     public class InventoryInteractions : MonoBehaviour
     {
         public static InventoryInteractions instance;

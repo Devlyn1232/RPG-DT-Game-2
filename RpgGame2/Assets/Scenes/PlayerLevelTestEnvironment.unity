@@ -1039,7 +1039,10 @@ MonoBehaviour:
   levelPlayerHealth: 5
   levelPlayerBaseDamage: 0.2
   totalLevelXp: 10
+  currentXp: 0
   currentHealth: 0
+  totalDefense: 0
+  equipment: []
 --- !u!54 &1595961237
 Rigidbody:
   m_ObjectHideFlags: 0

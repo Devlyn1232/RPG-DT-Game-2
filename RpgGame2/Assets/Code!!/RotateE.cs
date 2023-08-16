@@ -41,7 +41,7 @@ public class RotateE : MonoBehaviour
         }
         else
         {
-            PlayerManager[] playerLifeAttributes = GameObject.FindObjectsOfType<PlayerManager>();
+            Game.Player.PlayerManager[] playerLifeAttributes = GameObject.FindObjectsOfType<Game.Player.PlayerManager>();
             targetTransform = GetNearestTarget(playerLifeAttributes);
         }
     }

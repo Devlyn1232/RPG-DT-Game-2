@@ -17,9 +17,9 @@ namespace Game {
             levelCount = 1;
         }
 
-        public void LevelUp(float healthAdd, float damageAdd) {
-            baseHealth += healthAdd;
-            baseDamage += damageAdd;
+        public void LevelUp(float healthAdd, float damageAdd, int levelsToAdd = 1) {
+            baseHealth += healthAdd * (float)levelsToAdd;
+            baseDamage += damageAdd * (float)levelsToAdd;
 
             levelCount ++;
         }

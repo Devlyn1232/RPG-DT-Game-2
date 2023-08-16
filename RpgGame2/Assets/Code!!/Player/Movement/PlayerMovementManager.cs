@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Player.Movement
+namespace Game.Player.Movement
 {
     public class PlayerMovementManager : MonoBehaviour
     {
@@ -127,7 +127,7 @@ namespace Player.Movement
             verticalInput = Input.GetAxisRaw("Vertical");
 
             // when to jump
-            if (Input.GetKey(Player.InputHandler.InputManager.instance.jumpKey) && readyToJump && grounded)
+            if (Input.GetKey(Game.Player.InputManager.instance.jumpKey) && readyToJump && grounded)
             {
                 readyToJump = false;
 
@@ -152,13 +152,13 @@ namespace Player.Movement
 
         private void StateHandler()
         {
-            if (Input.GetKey(Player.InputHandler.InputManager.instance.crouchKey))
+            if (Input.GetKey(Game.Player.InputManager.instance.crouchKey))
             {
                 state = MovementState.crouching;
                 moveSpeed = crouchSpeed;
             }
 
-            if (grounded && Input.GetKey(Player.InputHandler.InputManager.instance.sprintKey))
+            if (grounded && Input.GetKey(Game.Player.InputManager.instance.sprintKey))
             {
                 state = MovementState.sprinting;
                 StaminaSlide.instance.UseStamina(1);

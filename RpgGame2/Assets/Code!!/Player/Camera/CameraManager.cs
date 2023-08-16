@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Player
+namespace Game.Player
 {
     public class CameraManager : MonoBehaviour
     {
@@ -58,8 +58,8 @@ namespace Player
         {
             Vector3 rotation;
             Quaternion targetRotation;
-            lookAngle = lookAngle + (Player.InputHandler.InputManager.instance.cameraInputX * cameraLookSpeed);
-            pivotAngle = pivotAngle - (Player.InputHandler.InputManager.instance.cameraInputY * cameraPivotSpeed);
+            lookAngle = lookAngle + (Game.Player.InputManager.instance.cameraInputX * cameraLookSpeed);
+            pivotAngle = pivotAngle - (Game.Player.InputManager.instance.cameraInputY * cameraPivotSpeed);
             pivotAngle = Mathf.Clamp(pivotAngle, minimumPivotAngle, maximumPivotAngle);
 
             //This will make the camera rotate towards the rotation made by input

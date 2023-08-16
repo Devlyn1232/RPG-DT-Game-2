@@ -4,7 +4,7 @@ using UnityEngine;
 
 // purpose of this script is to put all the bindings etc. into one area.
 // That way if states are needed say for playing in the world versus using inventory it can be done here. :D
-namespace Player.InputHandler {
+namespace Game.Player {
     public class InputManager : MonoBehaviour
     {
         public static InputManager instance;
@@ -39,17 +39,17 @@ namespace Player.InputHandler {
 
         void HandleAllInput() {
             if (Input.GetKeyDown(toggleInventoryKey)) {
-                Player.Inventory.InventoryInteractions.instance.ToggleInventory();
+                Game.Player.Inventory.InventoryInteractions.instance.ToggleInventory();
                 cameraInput.x = 0;
                 cameraInput.y = 0;
             }
 
-            if (Player.Inventory.InventoryInteractions.instance.isUiActive == false) {
+            if (Game.Player.Inventory.InventoryInteractions.instance.isUiActive == false) {
                 if (Input.GetKeyDown(crouchKey)) {
-                    Player.Movement.PlayerMovementManager.instance.Crouch(true);
+                    Game.Player.Movement.PlayerMovementManager.instance.Crouch(true);
                 }
                 if (Input.GetKeyUp(crouchKey)) {
-                    Player.Movement.PlayerMovementManager.instance.Crouch(false);
+                    Game.Player.Movement.PlayerMovementManager.instance.Crouch(false);
                 }
 
                 // setup all camera inputs
@@ -62,7 +62,7 @@ namespace Player.InputHandler {
         }
 
         void LateUpdate() {
-            Player.CameraManager.instance.HandleAllCameraMovement(); // make the camera do things
+            Game.Player.CameraManager.instance.HandleAllCameraMovement(); // make the camera do things
         }
     }
 }

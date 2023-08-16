@@ -344,6 +344,8 @@
 "Assets/Code!!/InventoryScripts/InventoryInteractions.cs"
 "Assets/Code!!/InventoryScripts/InventorySystem.cs"
 "Assets/Code!!/InventoryScripts/ObjectData.cs"
+"Assets/Code!!/InventoryScripts/ObjectTypes/ConsumableObjectData.cs"
+"Assets/Code!!/InventoryScripts/ObjectTypes/GearObjectData.cs"
 "Assets/Code!!/InventoryScripts/ObjectTypes/ResourceObjectData.cs"
 "Assets/Code!!/InventoryScripts/ObjectTypes/WeaponObjectData.cs"
 "Assets/Code!!/MeleDamage.cs"

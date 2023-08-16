@@ -13,7 +13,7 @@ public class StaminaSlide : MonoBehaviour
     private WaitForSeconds regenTick = new WaitForSeconds(0.1f);
     private Coroutine regen;
 
-    public Player.Movement.PlayerMovementManager sp;
+    public Game.Player.Movement.PlayerMovementManager sp;
 
     // referenced at any time, but can only be changed in this script
     public static StaminaSlide instance;
