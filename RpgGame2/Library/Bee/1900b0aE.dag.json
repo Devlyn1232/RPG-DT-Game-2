@@ -3815,8 +3815,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 177827,
+      "PayloadLength": 31706,
+=======
       "PayloadOffset": 177764,
       "PayloadLength": 31674,
+>>>>>>> origin/khgg
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -3828,7 +3833,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 209620,
+=======
       "PayloadOffset": 209525,
+>>>>>>> origin/khgg
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -4071,6 +4080,7 @@
         "Assets/Code!!/Player/Movement/StaminaSlide.cs",
         "Assets/Code!!/PlayerLifeAttributes.cs",
         "Assets/Code!!/RotateE.cs",
+        "Assets/Code!!/UI/MainMenu.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -4128,7 +4138,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 209716,
+=======
       "PayloadOffset": 209621,
+>>>>>>> origin/khgg
       "PayloadLength": 7498,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],

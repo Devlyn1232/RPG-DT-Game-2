@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 776d2f8e8d1647a46b073286ac576f24
+=======
 guid: 171a31f254fc2a04a9a2b6c8d458b7da
+>>>>>>> origin/khgg
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

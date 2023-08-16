@@ -351,6 +351,7 @@
 "Assets/Code!!/Player/Movement/StaminaSlide.cs"
 "Assets/Code!!/PlayerLifeAttributes.cs"
 "Assets/Code!!/RotateE.cs"
+"Assets/Code!!/UI/MainMenu.cs"
 -langversion:9.0
 
 /deterministic

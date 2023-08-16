@@ -130,6 +130,8 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueuedNodeIndex":121,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueueingNodeIndex":118}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","enqueuedNodeIndex":120,"enqueueingNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueueingNodeIndex":121}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":131,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":6}
+<<<<<<< HEAD
+=======
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2","index":3,"changes":[{"key":"WriteFilePayload","value":"/pathmap:\"C:\\Users\\delvy\\OneDrive\\Desktop\\RPGgame2\\RpgGame2\"=.","oldvalue":null}]}
 {"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2","displayName":"Writing UnityEngine.UI.rsp2","index":3}
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt","index":1,"changes":[{"key":"WriteFilePayload","value":"C:\\Users\\delvy\\OneDrive\\Desktop\\RPGgame2\\RpgGame2","oldvalue":null}]}
@@ -190,3 +192,4 @@
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":130,"changes":[{"key":"FileList","value":["Library\\Bee\\artifacts\\1900b0aE.dag\\Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","displayName":"Copying Assembly-CSharp.dll","index":130}
 {"msg":"noderesult","processed_node_count":129,"number_of_nodes_ever_queued":131,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":130,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
+>>>>>>> origin/khgg
