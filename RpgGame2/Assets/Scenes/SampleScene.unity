@@ -659,6 +659,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974746, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: obstruction.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_Name
       value: Enemy Assasin (1)
@@ -695,7 +703,11 @@ GameObject:
   - component: {fileID: 869380416}
   - component: {fileID: 869380415}
   - component: {fileID: 869380414}
+<<<<<<< HEAD
   m_Layer: 6
+=======
+  m_Layer: 7
+>>>>>>> origin/main
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1016,7 +1028,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974746, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: obstruction.m_Bits
+<<<<<<< HEAD
       value: 0
+=======
+      value: 128
+>>>>>>> origin/main
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974749, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_Name
@@ -1101,7 +1117,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974746, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: obstruction.m_Bits
+<<<<<<< HEAD
       value: 0
+=======
+      value: 128
+>>>>>>> origin/main
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974749, guid: 3bb939e339bfab748a21ad97013f6dd7, type: 3}
       propertyPath: m_Name
@@ -1605,7 +1625,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974746, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: obstruction.m_Bits
+<<<<<<< HEAD
       value: 0
+=======
+      value: 128
+>>>>>>> origin/main
       objectReference: {fileID: 0}
     - target: {fileID: 4381993166780974749, guid: e88a0df1372ad9a4fbf6a21a0023207a, type: 3}
       propertyPath: m_Name
@@ -1823,6 +1847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045138704}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.79, y: -4.75, z: -6.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1830,6 +1855,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1437514350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 3.921476, y: 30.5, z: 1.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+>>>>>>> origin/main
 --- !u!1 &2107392521
 GameObject:
   m_ObjectHideFlags: 0
