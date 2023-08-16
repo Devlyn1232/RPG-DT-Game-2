@@ -6,7 +6,7 @@ using UnityEngine.AI; // Make sure to include the NavMeshAgent namespace
 public class EnemyMovementGround : MonoBehaviour
 {
     public float Speed = 10f;
-    private PlayerLifeAttributes targetPlayer;
+    private PlayerManager targetPlayer;
     private EnemieAttributes targetEnemy;
     public LayerMask obstruction;
     public Transform self;
@@ -28,10 +28,10 @@ public class EnemyMovementGround : MonoBehaviour
         // Initialize targetPlayer and targetEnemy
         if (!frendly) // Non-friendly case
         {
-            PlayerLifeAttributes[] playerLifeAttributes = GameObject.FindObjectsOfType<PlayerLifeAttributes>();
+            PlayerManager[] playerLifeAttributes = GameObject.FindObjectsOfType<PlayerManager>();
             float closestDistance = Mathf.Infinity;
 
-            foreach (PlayerLifeAttributes playerAttr in playerLifeAttributes)
+            foreach (PlayerManager playerAttr in playerLifeAttributes)
             {
                 float distance = Vector3.Distance(transform.position, playerAttr.transform.position);
                 if (distance < closestDistance)

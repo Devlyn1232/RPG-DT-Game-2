@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class StaminaSlide : MonoBehaviour
 {
     public Slider staminaBar;
-
+    
     private int maxStamina = 1000;
     private int currentStamina;
 
     private WaitForSeconds regenTick = new WaitForSeconds(0.1f);
     private Coroutine regen;
 
-    public NamsGame.Movement.PlaMove sp;
+    public Player.Movement.PlayerMovementManager sp;
 
     // referenced at any time, but can only be changed in this script
     public static StaminaSlide instance;
