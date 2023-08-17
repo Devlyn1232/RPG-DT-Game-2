@@ -31,6 +31,10 @@ namespace Game.Player
         public float minimumPivotAngle = -35;
         public float maximumPivotAngle = 35;
 
+        [Header("FOV")]
+        [SerializeField] Camera _MainCam; // Camera Used
+        [SerializeField] bool _yumFOVswitch; // Turn FOV On or Off
+
         private void Awake()
         {
             instance = this;
@@ -98,6 +102,23 @@ namespace Game.Player
             cameraVectorPosition.z = Mathf.Lerp(cameraTransform.localPosition.z, targetPosition, 0.2f);
             cameraTransform.localPosition = cameraVectorPosition;
 
+        }
+
+        private void YumFOV()
+        {
+            if (Input.GetKey(KeyCode.LeftShift) && _yumFOVswitch && Game.Player.Movement.PlayerMovementManager.instance.isSprinting)
+            {
+                GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, 100, 10f * Time.deltaTime);
+            }
+            else
+            {
+                GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, 50, 10f * Time.deltaTime);
+            }
+        }
+
+        void Update()
+        {
+            YumFOV();
         }
     }
 }
