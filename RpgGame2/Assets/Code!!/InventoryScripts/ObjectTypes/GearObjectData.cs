@@ -5,8 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Inventory System/Items/Gear")]
 public class GearObjectData : Object.ObjectData
 {
-    public override void AssignItemToPlayer(){
-
+    public override void AssignItemToPlayer(Game.Player.Inventory.PlayerEquipmentManager equipmentManager, InventoryObjectButton clickedSlot){
+        equipmentManager.AssignGearItem(this, equipmentSlot, clickedSlot);
+    }
+    public override void UnassignItemFromPlayer(Game.Player.Inventory.PlayerEquipmentManager equipmentManager){
+        equipmentManager.UnassignGearItem(this, equipmentSlot);
     }
 
     public enum GearClass {
@@ -19,11 +22,11 @@ public class GearObjectData : Object.ObjectData
     public GearClass gearClass;
 
     public int equipmentSlot;
-        // 0 = helmet
-        // 1 = chest
-        // 2 = arms
-        // 3 = legs
-        // 4 = class item(pending)
+        // 1 = helmet
+        // 2 = chest
+        // 3 = arms
+        // 4 = legs
+        // 5 = class item(pending)
 
     public float defense;
 }

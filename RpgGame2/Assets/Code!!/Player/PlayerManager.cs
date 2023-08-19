@@ -4,6 +4,7 @@ using UnityEngine;
 namespace Game.Player {
     public class PlayerManager : MonoBehaviour
     {
+        public static PlayerManager instance;
         [Header("Base Stats")]
         [SerializeField] private float playerBaseMaxHealth;
         [SerializeField] private float playerBaseDamage;
@@ -21,14 +22,10 @@ namespace Game.Player {
 
         public float totalDefense;
 
-        public Object.ObjectData[] equipment;
-
-
         void Awake() {
+            instance = this;
             playerStats = new Game.EntityStats(playerBaseMaxHealth, playerBaseDamage);
             currentHealth = playerStats.baseHealth;
-
-            equipment = new Object.ObjectData[5];
         }
 
         void Update() {

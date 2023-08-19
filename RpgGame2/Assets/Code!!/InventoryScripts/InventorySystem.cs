@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEditor;
 using TMPro;
 
-namespace Player // add more namespace at beginning when committed to project
+namespace Game.Player // add more namespace at beginning when committed to project
 {
 
     [System.Serializable] public class InventoryUiItem { // wrapper class for an array of the UI components
@@ -79,7 +79,7 @@ namespace Player // add more namespace at beginning when committed to project
         [SerializeField] private GameObject itemStackUI;
         [SerializeField] private GameObject itemIconUI;
 
-        [SerializeField] private Transform inventoryFrame;
+        public Transform inventoryFrame;
 
         public List<InventoryItem> inventory {get; private set;} // the inventory list
         private Dictionary<Object.ObjectData, InventoryItem> m_itemDictionary; // dictionary for items in inventory (stack size, ui elements etc.)
@@ -102,6 +102,8 @@ namespace Player // add more namespace at beginning when committed to project
 
                     InventoryUiItem newUiItem = new InventoryUiItem(newItemUI, newItemStackUI, newItemIconUI);
 
+                    newItemUI.GetComponent<InventoryObjectButton>().SetItemInSlot(referenceData);
+
                     value.UnstackableAdd(newUiItem);
                 }
             }
@@ -110,11 +112,12 @@ namespace Player // add more namespace at beginning when committed to project
                 GameObject newItemIconUI = Instantiate(itemIconUI, itemIconUI.transform.position, Quaternion.identity, newItemUI.transform);
                 GameObject newItemStackUI = Instantiate(itemStackUI, itemStackUI.transform.position, Quaternion.identity, newItemUI.transform);
 
+                newItemUI.GetComponent<InventoryObjectButton>().SetItemInSlot(referenceData);
+
                 InventoryUiItem newUiItem = new InventoryUiItem(newItemUI, newItemStackUI, newItemIconUI);
                 InventoryItem newItem = new InventoryItem(referenceData, newUiItem);
                 inventory.Add(newItem);
                 m_itemDictionary.Add(referenceData, newItem);
-                // add creation of ui element here...
             }
         }
         
@@ -139,6 +142,23 @@ namespace Player // add more namespace at beginning when committed to project
                 return value;
             }
             return null;
+        }
+
+        public void SlotClicked(InventoryObjectButton clickedSlot) {
+            if(clickedSlot.itemInSlot != null && clickedSlot.used == false) {
+                AssignItem(clickedSlot.itemInSlot, clickedSlot);
+            }
+            else {
+                clickedSlot.transform.SetParent(inventoryFrame);
+                UnassignItem(clickedSlot.itemInSlot, clickedSlot);
+            }
+        }
+
+        public void AssignItem(Object.ObjectData item, InventoryObjectButton clickedSlot) {
+            item.AssignItemToPlayer(Game.Player.Inventory.PlayerEquipmentManager.instance, clickedSlot);
+        }
+        public void UnassignItem(Object.ObjectData item, InventoryObjectButton clickedSlot) {
+            item.UnassignItemFromPlayer(Game.Player.Inventory.PlayerEquipmentManager.instance);
         }
 
         public void Destroyer(InventoryUiItem itemToDestroy) {

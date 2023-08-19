@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Object
 {
     public abstract class ObjectData : ScriptableObject {
-        public enum objType
+        public enum ObjType
         {
             Resource,
             Weapon,
@@ -15,10 +15,12 @@ namespace Object
         public string id;
         public string displayName;
         public Sprite icon;
-        public objType type;
+        public ObjType type;
         public bool stackable;
         public GameObject prefab;
 
-        public abstract void AssignItemToPlayer();
+        public abstract void AssignItemToPlayer(Game.Player.Inventory.PlayerEquipmentManager equipmentManager, InventoryObjectButton clickedSlot);
+
+        public abstract void UnassignItemFromPlayer(Game.Player.Inventory.PlayerEquipmentManager equipmentManager);
     }
 }

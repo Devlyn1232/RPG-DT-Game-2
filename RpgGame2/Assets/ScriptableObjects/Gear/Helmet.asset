@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: item_helmet
   displayName: helmet
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 63c039303657c4144aef8f25efa8adae, type: 3}
   type: 3
   stackable: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 3115096452674552939, guid: 42aec45185a2cfe4687f6eb73c04e923, type: 3}
   gearClass: 0
-  equipmentSlot: 0
+  equipmentSlot: 1
   defense: 10

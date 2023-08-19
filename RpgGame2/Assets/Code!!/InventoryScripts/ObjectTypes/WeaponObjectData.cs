@@ -5,8 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Inventory System/Items/Weapon")]
 public class WeaponObjectData : Object.ObjectData
 {
-    public override void AssignItemToPlayer(){
-
+    public override void AssignItemToPlayer(Game.Player.Inventory.PlayerEquipmentManager equipmentManager, InventoryObjectButton clickedSlot){
+        throw new System.NotImplementedException();
+    }
+    public override void UnassignItemFromPlayer(Game.Player.Inventory.PlayerEquipmentManager equipmentManager){
+        throw new System.NotImplementedException();
     }
 
     public enum weaponType
