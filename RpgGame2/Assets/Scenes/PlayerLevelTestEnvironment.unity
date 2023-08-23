@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 1029971066}
   - component: {fileID: 1029971065}
   m_Layer: 0
-  m_Name: CameraManager
+  m_Name: CameraHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   thisGround:
     serializedVersion: 2
     m_Bits: 64
-  orientation: {fileID: 1619586170}
+  orientation: {fileID: 1029971066}
   _cam: {fileID: 1619586172}
   state: 0
 --- !u!114 &1595961236

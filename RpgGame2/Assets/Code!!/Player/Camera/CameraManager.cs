@@ -108,11 +108,11 @@ namespace Game.Player
         {
             if (Input.GetKey(KeyCode.LeftShift) && _yumFOVswitch && Game.Player.Movement.PlayerMovementManager.instance.isSprinting)
             {
-                GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, 100, 10f * Time.deltaTime);
+                _MainCam.fieldOfView = Mathf.Lerp(_MainCam.fieldOfView, 65, 10f * Time.deltaTime);
             }
             else
             {
-                GetComponent<Camera>().fieldOfView = Mathf.Lerp(GetComponent<Camera>().fieldOfView, 50, 10f * Time.deltaTime);
+                _MainCam.fieldOfView = Mathf.Lerp(_MainCam.fieldOfView, 60, 10f * Time.deltaTime);
             }
         }
 
