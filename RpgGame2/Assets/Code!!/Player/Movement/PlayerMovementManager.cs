@@ -191,6 +191,10 @@ namespace Game.Player.Movement
             //calc movement dir
             moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
+            //lerp player rotation :))
+            if (grounded && ((Mathf.Abs(verticalInput) == 1) || Mathf.Abs(horizontalInput) == 1)) 
+                transform.rotation = Quaternion.Slerp(transform.rotation, orientation.rotation, 10f * Time.deltaTime);
+
             //grounded
             if (grounded)
                 rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);

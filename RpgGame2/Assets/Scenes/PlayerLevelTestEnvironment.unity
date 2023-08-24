@@ -1008,6 +1008,7 @@ MonoBehaviour:
   pivotAngle: 0
   minimumPivotAngle: -35
   maximumPivotAngle: 35
+  _yumFOVswitch: 0
 --- !u!4 &1029971066
 Transform:
   m_ObjectHideFlags: 0
@@ -1637,7 +1638,7 @@ MonoBehaviour:
   thisGround:
     serializedVersion: 2
     m_Bits: 64
-  orientation: {fileID: 1200156549}
+  orientation: {fileID: 1029971066}
   _cam: {fileID: 1619586172}
   state: 0
 --- !u!54 &1595961237

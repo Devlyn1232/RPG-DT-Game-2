@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // purpose of this script is to put all the bindings etc. into one area.
-// That way if states are needed say for playing in the world versus using inventory it can be done here. :D
+// That way if states are needed, say, for playing in the world versus using inventory it can be done here. :D
 namespace Game.Player {
     public class InputManager : MonoBehaviour
     {
@@ -62,7 +62,7 @@ namespace Game.Player {
         }
 
         void LateUpdate() {
-            Game.Player.CameraManager.instance.HandleAllCameraMovement(); // make the camera do things
+            Game.Player.CameraManager.instance.HandleAllCameraMovement(); // make the camera do things :O
         }
     }
 }
