@@ -20,9 +20,14 @@ public class MagicSystem : MonoBehaviour
     public GameObject FireBall;
     public GameObject IceBolt;
     public TMP_Text magicEquip;
+
+    [Header("Transparency")]
     public GameObject purpCirc;
+    [SerializeField] private Color purpColour;
     public GameObject orangeCirc;
+    [SerializeField] private Color orangeColour;
     public GameObject blueCirc;
+    [SerializeField] private Color blueColour;
 
     private void Start()
     {
@@ -32,6 +37,10 @@ public class MagicSystem : MonoBehaviour
 
     void Update()
     {
+        purpCirc.GetComponent<SpriteRenderer>().material.color = purpColour;
+        orangeCirc.GetComponent<SpriteRenderer>().material.color = orangeColour;
+        blueCirc.GetComponent<SpriteRenderer>().material.color = blueColour;
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             _CurrentSpell = 1;
@@ -55,22 +64,27 @@ public class MagicSystem : MonoBehaviour
                 switch (_CurrentSpell)
                 {
                     case 1:
+                        purpColour.a = Mathf.Lerp(purpColour.a, 1f, 1f);
                         StartCoroutine(ManaBallShoot());
+                        Invoke("fadeOutPurp", 0.5f);
                         _CanAttack = false;
                         break;
                     case 2:
+                        orangeColour.a = Mathf.Lerp(0f, 1f, 1f);
                         StartCoroutine(FireBallShoot());
+                        Invoke("fadeOutOrange", 0.5f);
                         _CanAttack = false;
                         break;
                     case 3:
+                        blueColour.a = Mathf.Lerp(0f, 1f, 1f);
                         StartCoroutine(IceBoltShoot());
+                        Invoke("fadeOutBlue", 0.5f);
                         _CanAttack = false;
                         break;
                 }
             }
         }
     }
-
     IEnumerator ManaBallShoot()
     {
         GameObject projectile = Instantiate(ManaBall,ShootPoint.position,ShootPoint.rotation);
@@ -90,5 +104,18 @@ public class MagicSystem : MonoBehaviour
         GameObject projectile = Instantiate(IceBolt, ShootPoint.position, ShootPoint.rotation);
         yield return new WaitForSeconds(_IceBoltCooldown);
         _CanAttack = true;
+    }
+
+    private void fadeOutPurp()
+    {
+        purpColour.a = Mathf.Lerp(purpColour.a, 0f, 1f);
+    }
+    private void fadeOutOrange()
+    {
+        orangeColour.a = Mathf.Lerp(purpColour.a, 0f, 1f);
+    }
+    private void fadeOutBlue()
+    {
+        blueColour.a = Mathf.Lerp(purpColour.a, 0f, 1f);
     }
 }
